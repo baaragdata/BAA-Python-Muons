@@ -1,3 +1,4 @@
+''' For retreiving data from the CosmicWatch detector and saving it to a file. '''
 import serial 
 import time
 import glob
