@@ -1,7 +1,7 @@
 ![Baa Logo](baa_logo.png)
 # BAA Radio Astronomy Group
 *Workshop on*
-## Beginner's Python for Muon Detection data processing
+## Beginner's Python for Muon Detection & data processing
 
 Syllabus:
 1) Using a Raspberry PI to collect data from a UK Radio Astronomy Association Muon Detector
