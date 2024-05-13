@@ -41,11 +41,11 @@ plt.savefig('simple_plot.png')
 
 #plt.show()
 
-html_str = mpld3.fig_to_html(fig)
-Html_file= open("index.html","w")
-Html_file.write(html_str)
-Html_file.close()
+HtmlStr = mpld3.fig_to_html(fig)
 
+with open('index.html', 'w') as html_file:
+    html_file.write(HtmlStr)
+    
 webbrowser.open('index.html', new=2)
 
 print('Done!')
